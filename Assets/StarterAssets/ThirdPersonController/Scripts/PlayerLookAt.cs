@@ -7,7 +7,7 @@ public class PlayerLookAt : MonoBehaviour
     Animator animator;
     Camera mainCamera;
     public Transform Target;
-    // this is a test change
+    
     [Range(0, 1f)]
     public float Weight = .8f;
     [Range(0, 1f)]
