@@ -7,7 +7,7 @@ public class PlayerLookAt : MonoBehaviour
     Animator animator;
     Camera mainCamera;
     public Transform Target;
-
+    public Transform tiltTarget;
     [Range(0, 1f)]
     public float Weight = .8f;
     [Range(0, 1f)]
